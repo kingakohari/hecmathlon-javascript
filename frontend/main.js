@@ -1,4 +1,4 @@
-class hECMAthlon {
+class HECMAthlon {
 
     /*  getMaxValue: function (input) {
         const maxValues = input.split(",");
@@ -13,15 +13,9 @@ class hECMAthlon {
     }, */
 
     getMaxValue = (input) => {
-        let compare = (a, b) => {
-            if(parseInt(a) > parseInt(b)){
-                return a;
-            } else {
-                return b;
-            }
-        }
-        return input.split(",").reduce(compare);        
-    } 
+   
+        return input.reduce((a, b) => Math.max(a, b));   
+    }; 
 
 /*  getGreaterThan: function (input) {
         const greaterValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -36,7 +30,7 @@ class hECMAthlon {
 
     getGreaterThan = (input) => {
         return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter( n => n > parseInt(input));
-    }
+    };
 
 
 /*  fizzBuzz: function (input) {
@@ -66,4 +60,4 @@ class hECMAthlon {
 }       
       
 
-export default hECMAthlon;
+export class HECMAthlon {}

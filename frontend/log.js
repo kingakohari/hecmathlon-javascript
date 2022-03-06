@@ -1,6 +1,6 @@
-import hECMAthlon from "./main.js"
+import { HECMAthlon } from "main.js"
 
-const hECMAthlonRefactor = new hECMAthlon();
+const hECMAthlonRefactor = new HECMAthlon();
 
 function init() {
     const maxValueBtn = document.querySelector(".maxValue__btn");
