@@ -29,18 +29,14 @@ function init() {
     });
 }
 
-function getOutput(output) {
+const getOutput = output => ["The function starts", ...output, "The function ends"]
 
-  /* const returnValue = ["The function starts"]; */
+  /* const returnValue = ["The function starts"]; 
 
     for(let i = 0; i < output.length; i++){
 
-        /* returnValue.push(output[i]); */
-
-        return ["The function starts", ...output, "The function ends"]
-    }
-}
-/*         
+         returnValue.push(output[i]); 
+         
    returnValue.push("The function ends");
     return returnValue;
 } */
