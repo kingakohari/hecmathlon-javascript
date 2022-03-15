@@ -60,4 +60,4 @@ class HECMAthlon {
 }       
       
 
-export class HECMAthlon {}
+export {HECMAthlon}

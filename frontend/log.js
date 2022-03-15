@@ -1,4 +1,4 @@
-import { HECMAthlon } from "main.js"
+import { HECMAthlon } from "./main.js"
 
 const hECMAthlonRefactor = new HECMAthlon();
 
