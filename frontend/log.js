@@ -2,7 +2,7 @@ import { HECMAthlon } from "./main.js"
 
 const hECMAthlonRefactor = new HECMAthlon();
 
-function init() {
+const init = _ => { 
     const maxValueBtn = document.querySelector(".maxValue__btn");
     const greaterThanBtn = document.querySelector(".greaterThan__btn");
     const fizzBuzzBtn = document.querySelector(".fizzBuzz__btn");
@@ -50,4 +50,4 @@ function logResult(place, values){
     }
 }
 
-
+init();
