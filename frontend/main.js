@@ -1,4 +1,4 @@
-export class HECMAthlon {
+class HECMAthlon {
 
     /*  getMaxValue: function (input) {
         const maxValues = input.split(",");
@@ -59,4 +59,5 @@ export class HECMAthlon {
         .join("\n")
     }       
 }       
-      
+
+export default HECMAthlon
