@@ -47,7 +47,7 @@ class HECMAthlon {
         return output; */
 
 
-    fizzBuzz =  () => {
+    fizzBuzz = () => {
         return [...Array(100).keys()].map((_, k) => k + 1)
         .map(k => (k % 3 === 0 && k % 5 === 0)
                   ? "FizzBuzz"
