@@ -12,11 +12,14 @@ class HECMAthlon {
         return [maxValue];
     }, */
 
-    getMaxValue = (input) => input.reduce((acc, value) => {
+    getMaxValue(input) {
+        
+        input.reduce((acc, value) => {
     
         return acc > value ? acc : value;
         
-    });
+        });
+    }
 
 /*  getGreaterThan: function (input) {
         const greaterValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
