@@ -109,7 +109,7 @@ const logResult = (place, values) => {
     while(place.firstChild) {
         place.firstChild.remove();
     }
-    for (var j = 0; j < values.length; j++) {
+    for (let j = 0; j < values.length; j++) {
         place.insertAdjacentHTML("beforeend", "<div>" + values[j] + "</div>");
     }
 }
